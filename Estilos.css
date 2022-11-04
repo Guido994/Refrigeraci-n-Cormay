@@ -40,7 +40,7 @@ nav{
 .nav-link:hover{
     color: royalblue;
     font-size: larger;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .logo img{
@@ -147,14 +147,12 @@ footer{
 
 
 #indexImg{
-    /* background-image: url('./Multi/Cartel.png');
-    width: 100vw;   
+    background-image: url('./Multi/Cartel.png');
+    width: 100%;   
     height: 90vh;  
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; */
-    max-width: 100%;
-    max-height: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -462,7 +460,7 @@ textarea:focus{
 
 input{
     height: 35px;
-    width: 250px;
+    width: 350px;
     box-sizing: border-box;
     border-radius: 10px;
 }
@@ -483,7 +481,7 @@ input{
 
 #nombre{
     margin-top: 60px;
-    margin-left: 800px;
+    margin-left: 900px;
     margin-right: 30px;
 }
 
@@ -494,7 +492,7 @@ input{
 
 #teléfono{
     margin-top: 30px;
-    margin-left: 800px;
+    margin-left: 900px;
     margin-right: 30px;
 }
 
@@ -504,22 +502,26 @@ input{
 
 #localidad{
     margin-top: 30px;
-    margin-left: 230px;
+    margin-left: 480px;
+}
+
+input#localidad{
+    width: 730px;
 }
 
 #comentarios{
-    height: 30vh;
-    width: 28vw;
-    margin-left: 225px;
+    height: 310px;
+    width: 730px;
+    margin-left: 480px;
 }
 
 #submit{
-    margin-left: 250px;
+    margin-left: 480px;
     font-size: 20px;
 }
 
 #reset{
-    margin-left: 45px;
+    margin-left: 30px;
     font-size: 20px;
 }
 
@@ -544,6 +546,55 @@ input{
     }
     .iconHamb{
         display:block;
+    }
+    .redes a:not(:last-child){
+        margin-right: 10px;
+    }
+    .copyright h2{
+        font-size: smaller;
+        margin-top: 2.8vh;
+    }
+
+    .redes{
+        font-size: 24px;
+    }
+
+    .what{
+        display: none;
+    }
+    
+    .what i{
+        display: none;
+    }
+
+    /* ------------------------------CLIMATIZACIÓN (MEDIA QUERIES)-------------------------------- */
+
+    .videoClim2{
+        height: 25vh;
+        width: 34vw;
+    }
+    
+    .videoClim1{
+        height: 25vh;
+        width: 34vw;
+    }
+
+    .clim1{
+        height: 16vh;
+        width: 36vw;
+        margin-right: 3vw;
+    
+    }
+    
+    .clim2{
+        height: 9vh;
+        width: 25vw;
+        margin-right: 9vw;
+    }
+    
+    .clim3{
+        height: 9vh;
+        width: 25vw;
     }
 }
 
