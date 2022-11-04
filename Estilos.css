@@ -17,7 +17,7 @@ header{
     background-color: rgb(231, 230, 230);
     align-items: center;
     height: 20vh;
-    width: 100vw;
+    width: 100%;
     text-transform: uppercase;
     /* justify-content: space-around; */
 }
@@ -61,7 +61,7 @@ body{
 footer{
     background-color: black ;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     font-size: small;
     color: white;
     text-align: center;
@@ -147,12 +147,14 @@ footer{
 
 
 #indexImg{
-    background-image: url('./Multi/Cartel.png');
+    /* background-image: url('./Multi/Cartel.png');
     width: 100vw;   
     height: 90vh;  
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -239,7 +241,7 @@ footer{
 
 
 #materialesImg{
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     background-attachment: fixed;
     background-position: center;
