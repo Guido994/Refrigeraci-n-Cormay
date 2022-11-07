@@ -532,11 +532,11 @@ input#localidad{
     background-color: aquamarine;
 }
 
-/* --------------------------- MEDIA QUERIES --------------------------- */
+/* --------------------------------- MEDIA QUERIES ------------------------------------------------- */
 
 /* MOBILE DEVICES */
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
     .navBar{
         display: none;
     }
@@ -596,7 +596,7 @@ input#localidad{
         width: 25vw;
     }
 
-    /* -----------------------------------------MATERIALES---------------------------------------------------*/
+    /* -------------------------------------MATERIALES (MEDIA QUERIES)---------------------------------*/
 
     .grids {
         width: 215px;
@@ -605,10 +605,10 @@ input#localidad{
     }
 
     .ulMateriales {
-        font-size: 14px
+        font-size: 12px
     }
 
-    /* ------------------------------------------------NOSOTROS-------------------------------------------------- */
+    /* -------------------------------------NOSOTROS (MEDIA QUERIES)---------------------------------- */
 
     .contenedor2 p{
         font-size: 20px;
@@ -630,7 +630,7 @@ input#localidad{
         font-size: 25px;
     }
 
-    /* ----------------------------------------------------CONTACTO------------------------------------------------------ */
+    /* ----------------------------------------CONTACTO (MEDIA QUERIES)--------------------------------- */
 
     .maps{
         left:40px;
@@ -673,3 +673,5 @@ input#localidad{
     #submit{
         margin-left: -26px;
     }
+}
+
