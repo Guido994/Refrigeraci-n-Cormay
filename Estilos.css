@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
 
 
+
 /* -------------------------TODOS------------------------------- */
 
 
@@ -164,7 +165,6 @@ footer{
 .contenedorClim{
     background-color: rgb(8, 80, 80);
     height: 80vh;
-    
 }
 
 .videoClim2{
@@ -210,7 +210,6 @@ footer{
     height: 20vh;
     width: 20vw;
     margin-right: 25vw;
-
 }
 
 .clim2{
@@ -229,9 +228,6 @@ footer{
     align-items:center;
 }
 
-/* .videosClim iframe{
-    justify-content: space-between;
-} */
 
 
 /* -------------------------------MATERIALES----------------------------- */
@@ -262,34 +258,6 @@ footer{
     font-weight: bold;
     color: rgb(8, 8, 8);
 }
-
-/* .sherwinImg{
-    top: 17%;
-    right: 5%;
-    position: absolute;
-    height: 100px;
-}
-
-.honeywellImg{
-    right: 6%;
-    position: absolute;
-    height: 50px;
-    top: 40%;
-}
-
-.embracoImg{
-    right: 6%;
-    position: absolute;
-    height: 80px;
-    top: 56%;
-}
-
-.robertshawImg{
-    right: 4%;
-    position: absolute;
-    height: 200px;
-    top: 67%;
-} */
 
 .grids{
     /* background-color: antiquewhite; */
@@ -371,7 +339,6 @@ footer{
     font-size: 30px;
     color:navy;
     text-decoration: underline dotted 7px;
-    
 }
 
 .pMisión{
@@ -446,8 +413,6 @@ footer{
     }
 }
 
-}
-
 input:focus{
     font-size: 20px;
     transition: 0.5s;
@@ -473,7 +438,7 @@ input{
 
 .form1{
     display: flex;
-    }
+}
 
 .form2{
     display: flex;
@@ -540,15 +505,19 @@ input#localidad{
     .navBar{
         display: none;
     }
+
     header{
         justify-content: space-between;
     }
+
     .iconHamb{
         display:block;
     }
+
     .redes a:not(:last-child){
         margin-right: 10px;
     }
+
     .copyright h2{
         font-size: smaller;
         margin-top: 2.8vh;
@@ -582,7 +551,6 @@ input#localidad{
         height: 16vh;
         width: 36vw;
         margin-right: 3vw;
-    
     }
     
     .clim2{
@@ -598,13 +566,13 @@ input#localidad{
 
     /* -------------------------------------MATERIALES (MEDIA QUERIES)---------------------------------*/
 
-    .grids {
+    .grids{
         width: 215px;
         height: 270px;
         left: 130px;
     }
 
-    .ulMateriales {
+    .ulMateriales{
         font-size: 12px
     }
 
