@@ -16,6 +16,8 @@
 header{
     display: flex;
     background-color: rgb(231, 230, 230);
+    // background-image: url("./Multi/Pexels1.jpg");
+    // background-size: cover;
     align-items: center;
     height: 20vh;
     width: 100%;
@@ -30,12 +32,12 @@ header{
 }
 
 nav{
-    font-size:medium;
+    font-size:large;
     letter-spacing: 0.1rem;    
 }
 
 .navBar{
-    margin-left: 250px;
+    margin-left: 10px;
 }
 
 .nav-link:hover{
@@ -61,7 +63,7 @@ body{
 
 footer{
     background-color: black ;
-    height: 10vh;
+    height: 11vh;
     width: 100%;
     font-size: small;
     color: white;
@@ -69,10 +71,11 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 0 35px;
+    letter-spacing: 2.5px;
 }
 
 .copyright h2{
-    font-size: medium;
+    font-size: large;
     margin-top: 2.8vh;
 }
 

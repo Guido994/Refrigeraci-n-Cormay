@@ -24,12 +24,12 @@ header {
 }
 
 nav {
-  font-size: medium;
+  font-size: large;
   letter-spacing: 0.1rem;
 }
 
 .navBar {
-  margin-left: 250px;
+  margin-left: 10px;
 }
 
 .nav-link:hover {
@@ -55,7 +55,7 @@ body {
 
 footer {
   background-color: black;
-  height: 10vh;
+  height: 11vh;
   width: 100%;
   font-size: small;
   color: white;
@@ -63,10 +63,11 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 0 35px;
+  letter-spacing: 2.5px;
 }
 
 .copyright h2 {
-  font-size: medium;
+  font-size: large;
   margin-top: 2.8vh;
 }
 
@@ -159,24 +160,49 @@ footer {
 .videoClim2 {
   height: 40vh;
   width: 34vw;
-  animation-duration: 1.8s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-  animation-name: videoClim;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-name: videoClim;
+          animation-name: videoClim;
 }
 
 .videoClim1 {
   height: 40vh;
   width: 34vw;
-  animation-duration: 1.8s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-  animation-name: videoClim2;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-name: videoClim2;
+          animation-name: videoClim2;
+}
+
+@-webkit-keyframes videoClim {
+  0% {
+    transform: translateX(500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 @keyframes videoClim {
   0% {
     transform: translateX(500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@-webkit-keyframes videoClim2 {
+  0% {
+    transform: translateX(-500px);
   }
   100% {
     transform: translateX(0px);
@@ -311,7 +337,8 @@ footer {
   padding-top: 30px;
   font-size: 30px;
   color: navy;
-  text-decoration: underline dotted 7px;
+  -webkit-text-decoration: underline dotted 7px;
+          text-decoration: underline dotted 7px;
 }
 
 .pMisión {
@@ -325,7 +352,8 @@ footer {
   padding-top: 50px;
   font-size: 30px;
   color: navy;
-  text-decoration: underline dotted 7px;
+  -webkit-text-decoration: underline dotted 7px;
+          text-decoration: underline dotted 7px;
 }
 
 .pVisión {
@@ -339,7 +367,8 @@ footer {
   padding-top: 50px;
   font-size: 30px;
   color: navy;
-  text-decoration: underline dotted 7px;
+  -webkit-text-decoration: underline dotted 7px;
+          text-decoration: underline dotted 7px;
 }
 
 .valoresUl {
@@ -365,10 +394,23 @@ footer {
   height: 60vh;
   width: 30vw;
   top: 14vh;
-  animation-duration: 1.8s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease;
-  animation-name: maps;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-name: maps;
+          animation-name: maps;
+}
+
+@-webkit-keyframes maps {
+  0% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 @keyframes maps {
@@ -394,6 +436,18 @@ input {
   width: 350px;
   box-sizing: border-box;
   border-radius: 10px;
+}
+
+::-moz-placeholder {
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
 }
 
 ::placeholder {
@@ -672,6 +726,4 @@ input#localidad {
   #submit {
     margin-left: -26px;
   }
-}
-
-/*# sourceMappingURL=Estilos.css.map */
+}/*# sourceMappingURL=Estilos.css.map */
