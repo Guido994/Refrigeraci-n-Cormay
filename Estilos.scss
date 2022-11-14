@@ -507,6 +507,48 @@ input#localidad{
 
 // IPADS, TABLETS
 
+// @media only screen and (max-width: 1366px) {
+//     nav{
+//         font-size:smaller;
+//         letter-spacing: 0.1rem;    
+//     }
+//     #inicioId{
+//         margin-left: 60px;
+//     }
+//     #climId{
+//         margin-left: 70px;
+//     }
+//     #matId{
+//         margin-left: 70px;
+//     }
+//     #nosId{
+//         margin-left: 70px;
+//     }
+//     #conId{
+//         margin-left: 70px;
+//     }
+//     .logo img{
+//         height: 25vh;
+//         width: auto;
+//     }
+//     footer{
+//         height: 10vh;
+//     }
+//     .copyright h2{
+//         font-size: smaller;
+//         margin-top: 2.2vh;
+//     }
+//     .redes{
+//         font-size: 25px;
+//         background-color:black;
+//         margin-top: 2.2vh;
+//     }
+//     .redes a:not(:last-child){
+//         margin-right: 60px;
+//     }
+
+// }
+
 @media only screen and (max-width: 768px) {
 
     .what{
