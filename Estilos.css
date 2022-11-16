@@ -247,46 +247,106 @@ footer {
   background-image: url("./Multi/Repuestos 1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.contenedorMateriales {
   padding: 60px 60px;
 }
 
 .grids {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 400px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 300px);
   grid-row-gap: 100px;
   grid-column-gap: 60px;
 }
 
 .item {
-  border: 3px dotted rgb(0, 0, 0);
+  border: 4px dotted rgb(58, 100, 124);
   border-radius: 10px;
 }
 
 .item.item1 {
-  background-image: url("./Multi/Value/Value1.png");
-  background-size: cover;
-  background-position: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-name: item1;
+          animation-name: item1;
 }
 
 .item.item2 {
-  background-size: cover;
-  background-position: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-name: item2;
+          animation-name: item2;
 }
 
 .item.item3 {
-  background-size: cover;
-  background-position: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .item.item4 {
-  background-size: cover;
-  background-position: center;
+  justify-content: center;
+  text-align: center;
 }
 
+.item.item5 {
+  justify-content: center;
+  text-align: center;
+}
+
+.item.item6 {
+  justify-content: center;
+  text-align: center;
+}
+
+.item.item7 {
+  justify-content: center;
+  text-align: center;
+}
+
+@-webkit-keyframes item1 {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes item1 {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes item2 {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes item2 {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 /* ---------------------------------NOSOTROS-------------------------------- */
 .contenedor2 {
   height: 100vh;
