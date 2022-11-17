@@ -270,8 +270,8 @@ footer {
           animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
   -webkit-animation-name: item1;
           animation-name: item1;
 }
@@ -283,8 +283,8 @@ footer {
           animation-duration: 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
   -webkit-animation-name: item2;
           animation-name: item2;
 }
@@ -292,31 +292,110 @@ footer {
 .item.item3 {
   justify-content: center;
   text-align: center;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-name: item3;
+          animation-name: item3;
 }
 
 .item.item4 {
   justify-content: center;
   text-align: center;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-name: item4;
+          animation-name: item4;
 }
 
 .item.item5 {
   justify-content: center;
   text-align: center;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-name: item5;
+          animation-name: item5;
 }
 
 .item.item6 {
   justify-content: center;
   text-align: center;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-name: item6;
+          animation-name: item6;
 }
 
 .item.item7 {
   justify-content: center;
   text-align: center;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-name: item7;
+          animation-name: item7;
+}
+
+.item.item8 {
+  justify-content: center;
+  text-align: center;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-name: item8;
+          animation-name: item8;
+}
+
+.item.item9 {
+  justify-content: center;
+  text-align: center;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-name: item9;
+          animation-name: item9;
+}
+
+.item.item10 {
+  justify-content: center;
+  text-align: center;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-name: item10;
+          animation-name: item10;
 }
 
 @-webkit-keyframes item1 {
   0% {
-    transform: translateY(-500px);
+    transform: translateY(500px);
   }
   100% {
     transform: translateY(0px);
@@ -325,7 +404,7 @@ footer {
 
 @keyframes item1 {
   0% {
-    transform: translateY(-500px);
+    transform: translateY(500px);
   }
   100% {
     transform: translateY(0px);
@@ -333,7 +412,7 @@ footer {
 }
 @-webkit-keyframes item2 {
   0% {
-    transform: translateY(-500px);
+    transform: translateY(500px);
   }
   100% {
     transform: translateY(0px);
@@ -341,7 +420,135 @@ footer {
 }
 @keyframes item2 {
   0% {
-    transform: translateY(-500px);
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes item3 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes item3 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes item4 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes item4 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes item5 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes item5 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes item6 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes item6 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes item7 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes item7 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes item8 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes item8 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes item9 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes item9 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes item10 {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes item10 {
+  0% {
+    transform: translateY(500px);
   }
   100% {
     transform: translateY(0px);
