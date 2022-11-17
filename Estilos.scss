@@ -27,8 +27,8 @@ header{
 
 .iconHamb{
     display: none;
-    margin-right: 30px;
-    font-size: 40px;
+    margin-right: 70px;
+    font-size: 50px;
 }
 
 nav{
@@ -242,43 +242,43 @@ footer{
 
 #materialesImg{
     width: 100%;
-    height: 200vh;
-    background-attachment: fixed;
-    background-position: center;
-    opacity: 50%;
-    background-image: url('./Multi/Repuestos\ 1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 250vh;
     padding: 60px 60px;
+    position: relative;
+    isolation: isolate;
 }
 
-// .ulMateriales{
-//     font-size: 13.9px;
-//     top: 5%;
-//     left: 5%;
-//     justify-content:center;
-//     font-weight: bold;
-//     color: rgb(8, 8, 8);
-// }
+#materialesImg::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: 40%;
+    background-image: url('./Multi/Repuestos\ 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
 
 .grids{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,300px);
+    grid-template-rows: repeat(4,320px);
     grid-row-gap: 100px;
     grid-column-gap: 60px;
 }
 
 .item{
-    border: 4px dotted rgb(58, 100, 124);
+    border: 4px dotted rgb(28, 40, 92);
     border-radius: 10px;
-    // background-color: antiquewhite;
+    background-color: antiquewhit
 }
 
 .item.item1{
     justify-content: center;
     text-align: center;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item1
@@ -287,7 +287,7 @@ footer{
 .item.item2{
     justify-content: center;
     text-align: center;
-    animation-duration: 1s;
+    animation-duration: 0.7s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item2
@@ -296,7 +296,7 @@ footer{
 .item.item3{
     justify-content: center;
     text-align: center;
-    animation-duration: 1s;
+    animation-duration: 0.9s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item3
@@ -305,7 +305,7 @@ footer{
 .item.item4{
     justify-content: center;
     text-align: center;
-    animation-duration: 2s;
+    animation-duration: 1.1s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item4
@@ -314,7 +314,7 @@ footer{
 .item.item5{
     justify-content: center;
     text-align: center;
-    animation-duration: 2s;
+    animation-duration: 1.3s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item5
@@ -323,7 +323,7 @@ footer{
 .item.item6{
     justify-content: center;
     text-align: center;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item6
@@ -332,7 +332,7 @@ footer{
 .item.item7{
     justify-content: center;
     text-align: center;
-    animation-duration: 3s;
+    animation-duration: 1.7s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item7
@@ -341,7 +341,7 @@ footer{
 .item.item8{
     justify-content: center;
     text-align: center;
-    animation-duration: 3s;
+    animation-duration: 1.9s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item8
@@ -350,7 +350,7 @@ footer{
 .item.item9{
     justify-content: center;
     text-align: center;
-    animation-duration: 3s;
+    animation-duration: 2.1s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item9
@@ -359,10 +359,55 @@ footer{
 .item.item10{
     justify-content: center;
     text-align: center;
-    animation-duration: 3s;
+    animation-duration: 2.3s;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     animation-name: item10
+}
+
+.item.item11{
+    justify-content: center;
+    text-align: center;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-name: item11
+}
+
+.item.item12{
+    justify-content: center;
+    text-align: center;
+    animation-duration: 2.7s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-name: item12;
+}
+
+.item.item13{
+    justify-content: center;
+    text-align: center;
+    animation-duration: 2.9s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-name: item13;
+}
+
+.item.item14{
+    justify-content: center;
+    text-align: center;
+    animation-duration: 3.1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-name: item14;
+}
+
+.item.item15{
+    justify-content: center;
+    text-align: center;
+    animation-duration: 3.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-name: item15;
 }
 
 
@@ -466,6 +511,58 @@ footer{
         transform:translateY(0px);
     }
 }
+
+@keyframes item11{
+    0%{
+        transform: translateY(500px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+@keyframes item12{
+    0%{
+        transform: translateY(500px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+@keyframes item13{
+    0%{
+        transform: translateY(500px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+@keyframes item14{
+    0%{
+        transform: translateY(500px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+@keyframes item15{
+    0%{
+        transform: translateY(500px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+
 
 /* ---------------------------------NOSOTROS-------------------------------- */
 
@@ -660,49 +757,22 @@ input#localidad{
 
 /* -------------------------------------------------------- MEDIA QUERIES ------------------------------------------------- */
 
-// IPADS, TABLETS
 
-// @media only screen and (max-width: 1366px) {
-//     nav{
-//         font-size:smaller;
-//         letter-spacing: 0.1rem;    
-//     }
-//     #inicioId{
-//         margin-left: 60px;
-//     }
-//     #climId{
-//         margin-left: 70px;
-//     }
-//     #matId{
-//         margin-left: 70px;
-//     }
-//     #nosId{
-//         margin-left: 70px;
-//     }
-//     #conId{
-//         margin-left: 70px;
-//     }
-//     .logo img{
-//         height: 25vh;
-//         width: auto;
-//     }
-//     footer{
-//         height: 10vh;
-//     }
-//     .copyright h2{
-//         font-size: smaller;
-//         margin-top: 2.2vh;
-//     }
-//     .redes{
-//         font-size: 25px;
-//         background-color:black;
-//         margin-top: 2.2vh;
-//     }
-//     .redes a:not(:last-child){
-//         margin-right: 60px;
-//     }
 
-// }
+@media only screen and (max-width: 1450px) {
+    .navBar{
+        display: none;
+    }
+
+    .iconHamb{
+        display:block;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+}
 
 @media only screen and (max-width: 768px) {
 
