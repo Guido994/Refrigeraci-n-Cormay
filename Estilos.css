@@ -492,6 +492,22 @@ footer {
   font-family: "Josefin Sans", sans-serif;
 }
 
+/* ---------------------------------MATERIALES-VALUE------------------------ */
+#value {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#value:hover {
+  color: darkblue;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+
 /* ---------------------------------NOSOTROS-------------------------------- */
 .contenedor2 {
   height: 100vh;
