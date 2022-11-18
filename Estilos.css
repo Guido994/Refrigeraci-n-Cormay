@@ -14,7 +14,6 @@ header {
   height: 20vh;
   width: 100%;
   text-transform: uppercase;
-  /* justify-content: space-around; */
 }
 
 .iconHamb {
@@ -267,10 +266,9 @@ footer {
   grid-column-gap: 60px;
 }
 
-.item {
+.imageContainer {
   border: 4px dotted rgb(28, 40, 92);
   border-radius: 10px;
-  background-color: antiquewhit;
 }
 
 .item.item1 {
@@ -282,8 +280,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item1;
-          animation-name: item1;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item2 {
@@ -295,8 +293,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item2;
-          animation-name: item2;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item3 {
@@ -308,8 +306,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item3;
-          animation-name: item3;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item4 {
@@ -321,8 +319,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item4;
-          animation-name: item4;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item5 {
@@ -334,8 +332,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item5;
-          animation-name: item5;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item6 {
@@ -347,8 +345,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item6;
-          animation-name: item6;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item7 {
@@ -360,8 +358,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item7;
-          animation-name: item7;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item8 {
@@ -373,8 +371,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item8;
-          animation-name: item8;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item9 {
@@ -386,8 +384,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item9;
-          animation-name: item9;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item10 {
@@ -399,8 +397,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item10;
-          animation-name: item10;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item11 {
@@ -412,8 +410,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item11;
-          animation-name: item11;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item12 {
@@ -425,8 +423,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item12;
-          animation-name: item12;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item13 {
@@ -438,8 +436,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item13;
-          animation-name: item13;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item14 {
@@ -451,8 +449,8 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item14;
-          animation-name: item14;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
 .item.item15 {
@@ -464,11 +462,11 @@ footer {
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
-  -webkit-animation-name: item15;
-          animation-name: item15;
+  -webkit-animation-name: itemanimation;
+          animation-name: itemanimation;
 }
 
-@-webkit-keyframes item1 {
+@-webkit-keyframes itemanimation {
   0% {
     transform: translateY(500px);
   }
@@ -477,231 +475,7 @@ footer {
   }
 }
 
-@keyframes item1 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item2 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item2 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item3 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item3 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item4 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item4 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item5 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item5 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item6 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item6 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item7 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item7 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item8 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item8 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item9 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item9 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item10 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item10 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item11 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item11 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item12 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item12 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item13 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item13 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item14 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item14 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@-webkit-keyframes item15 {
-  0% {
-    transform: translateY(500px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-@keyframes item15 {
+@keyframes itemanimation {
   0% {
     transform: translateY(500px);
   }
