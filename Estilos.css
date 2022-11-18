@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -240,7 +241,7 @@ footer {
 #materialesImg {
   width: 100%;
   height: 250vh;
-  padding: 60px 60px;
+  padding: 120px 60px;
   position: relative;
   isolation: isolate;
 }
@@ -250,7 +251,7 @@ footer {
   position: absolute;
   z-index: -1;
   inset: 0;
-  opacity: 40%;
+  opacity: 30%;
   background-image: url("./Multi/Repuestos 1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -267,7 +268,7 @@ footer {
 }
 
 .imageContainer {
-  border: 4px dotted rgb(28, 40, 92);
+  /* border: 4px dotted darkslategray; */
   border-radius: 10px;
 }
 
@@ -483,6 +484,14 @@ footer {
     transform: translateY(0px);
   }
 }
+.títulosGrids {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 /* ---------------------------------NOSOTROS-------------------------------- */
 .contenedor2 {
   height: 100vh;
