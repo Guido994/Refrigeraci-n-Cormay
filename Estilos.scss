@@ -125,21 +125,14 @@ footer{
 }
 
 .what{
-    height: 9vh;
-    width: 3vw;
     background-color: green;
     position: fixed;
     right: 2vw;
     bottom: 12vh;
     font-size: 50px;
     color: white;
-    border-radius: 30%;
+    border-radius: 25%;
     padding: 7px;
-}
-
-.what i{
-    text-align: center;
-    align-items: center;
 }
 
 
@@ -303,6 +296,10 @@ footer{
     color:rgb(0, 0, 0);
     padding: 15px;
     font-family: 'Josefin Sans', sans-serif;   
+}
+
+.altImgs{
+    height: 250px;
 }
 
 
@@ -540,11 +537,15 @@ input#localidad{
     background-color: aquamarine;
 }
 
-/* -------------------------------------------------------- MEDIA QUERIES ------------------------------------------------- */
+/* --------------------------------------- MEDIA QUERIES ------------------------------------------------- */
 
 
 
 @media only screen and (max-width: 1550px) {
+
+    .what{
+        font-size: 45px;
+    }
 
     #valueLogo img{
         height: 280px;
@@ -562,7 +563,7 @@ input#localidad{
 
     #materialesImg{
         width: 100%;
-        height: 400vh;
+        height: 420vh;
     }
 
     .contenedor2 p{
@@ -601,14 +602,47 @@ input#localidad{
 
 }
 
+@media only screen and (max-width: 1050px) {
+    .grids{
+        display: grid;
+        grid-template-columns: repeat(2,275px);
+        grid-template-rows: repeat(4,250px);
+        grid-row-gap: 100px;
+        grid-column-gap: 60px;
+        justify-content: center;
+    }
+
+    .altImgs{
+        height: 180px;
+    }
+
+    #valueLogo img{
+        height: 150px;
+        width: auto;
+    }
+
+    .títulosGrids{
+        font-size: 15px;
+    }
+
+    #materialesImg{
+        height: 330vh;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
-    .what{
-        display: none;
+    .grids{
+        display: grid;
+        grid-template-columns: repeat(1,275px);
+        grid-template-rows: repeat(4,250px);
+        grid-row-gap: 100px;
+        grid-column-gap: 20px;
+        justify-content: center;
     }
-    
-    .what i{
-        display: none;
+
+    #materialesImg{
+        height: 5500px;
     }
 
     .navBar{
@@ -625,6 +659,10 @@ input#localidad{
 
     .redes a:not(:last-child){
         margin-right: 10px;
+    }
+
+    .what{
+        font-size: 40px;
     }
 
     // CLIMATIZACIÓN (TABLETS)
@@ -657,12 +695,6 @@ input#localidad{
     }
 
     // MATERIALES (TABLETS)
-
-    .grids{
-        width: 300px;
-        height: 350px;
-        left: 400px;
-    }
 
     .ulMateriales{
         font-size: 12px
@@ -763,14 +795,6 @@ input#localidad{
             font-size: 24px;
         }
     
-        .what{
-            display: none;
-        }
-        
-        .what i{
-            display: none;
-        }
-    
         /* CLIMATIZACIÓN (MOBILE) */
     
         .videoClim2{
@@ -801,12 +825,6 @@ input#localidad{
         }
     
         /* MATERIALES (MOBILE)*/
-    
-        .grids{
-            width: 215px;
-            height: 270px;
-            left: 130px;
-        }
     
         .ulMateriales{
             font-size: 12px
