@@ -27,26 +27,32 @@
     </header>
 
     <div class="contenedorForm">
-        <form action="enviar.php" method="post" enctype="text/plain"><br><br>
-            <div class="form1">
-            <label for="Nombre"></label>
-            <input type="text" name="Nombre" id="nombre" placeholder="Nombre" required><br><br>
-            <label for="Apellido"></label>
-            <input type="text" name="Apellido" id="apellido" placeholder="Apellido" required><br><br>
-            </div>
-            <div class="form2">
-            <label for="Teléfono"></label>
-            <input type="number" name="Teléfono" id="teléfono" placeholder="Teléfono" required><br><br>
-            <label for="Correo"></label>
-            <input type="text" name="Correo" id="correo" placeholder="Correo" required><br><br>
-            </div>
-            <label for="Localidad"></label>
-            <input type="text" name="Localidad" id="localidad" placeholder="Localidad" required><br><br><br>
-            <label for="Comentarios"></label>
-            <textarea name="Comentarios" id="comentarios" cols="30" rows="10" placeholder="Escríbenos tu consulta" required></textarea><br><br> 
-            <input type="submit" id="submit">
-            <input type="reset" id="reset"> 
-        </form>
+        <div class="formdiv">
+            <form action="enviar.php" method="post" enctype="text/plain">
+                <div class="form1">
+                <label for="Nombre"></label>
+                <input type="text" name="Nombre" id="nombre" placeholder="Nombre" required>
+                <label for="Apellido"></label>
+                <input type="text" name="Apellido" id="apellido" placeholder="Apellido" required>
+                </div>
+                <div class="form2">
+                <label for="Teléfono"></label>
+                <input type="number" name="Teléfono" id="teléfono" placeholder="Teléfono" required>
+                <label for="Correo"></label>
+                <input type="text" name="Correo" id="correo" placeholder="Correo" required>
+                </div>
+                <div class="form4">
+                <label for="Localidad"></label>
+                <input type="text" name="Localidad" id="localidad" placeholder="Localidad" required>
+                <label for="Comentarios"></label>
+                <textarea name="Comentarios" id="comentarios" cols="30" rows="10" placeholder="Escríbenos tu consulta" required></textarea> 
+                </div>  
+                <div class="form3">
+                <input type="submit" id="submit">
+                <input type="reset" id="reset">
+                </div> 
+            </form>
+        </div>
         <div class="maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.44548381905!2d-60.64592468481386!3d-32.939245980923346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab3c783c6ca7%3A0x8578d7a3c1cf5f4f!2sCORMAY%20Climatizaci%C3%B3n!5e0!3m2!1ses-419!2sar!4v1664997035794!5m2!1ses-419!2sar" width="370" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
         </div>

@@ -17,7 +17,7 @@
 
 header{
     display: flex;
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(211, 209, 209);
     align-items: center;
     height: 20vh;
     width: 100%;
@@ -46,8 +46,9 @@ nav{
 }
 
 .logo img{
-    height: 20vh;
+    height: 8vh;
     width: auto;
+    margin-left: 40px;
 }
 
 .nav-link{
@@ -61,11 +62,10 @@ body{
 }
 
 footer{
-    background-color: black ;
-    height: 11vh;
+    background-color:antiquewhite ;
+    height: 10vh;
     width: 100%;
     font-size: small;
-    color: white;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -75,13 +75,12 @@ footer{
 
 .copyright h2{
     font-size: small;
-    margin-top: 3.4vh;
+    margin-top: 3vh;
 }
 
 .redes{
-    font-size: 30px;
-    background-color:black;
-    margin-top: 3.4vh;
+    font-size: 30px; 
+    margin-top: 3vh;
 }
 
 .redes a:not(:last-child){
@@ -89,7 +88,7 @@ footer{
 }
 
 .redes a{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .fa-whatsapp:hover{
@@ -97,11 +96,11 @@ footer{
 }
 
 .fa-facebook:hover{
-    color: rgb(19, 24, 180);
+    color: rgb(9, 49, 169);
 }
 
 .fa-instagram:hover{
-    color:rgb(247, 232, 21);
+    color:rgb(222, 128, 45);
 }
 
 #inicioId{
@@ -142,7 +141,7 @@ footer{
 
 
 #indexImg{
-    background-image: url('./Multi/Cartel.png');
+    background-image: url('./Multi/Cartel.jpg');
     width: 100%;   
     height: 90vh;  
     background-position: center;
@@ -423,20 +422,26 @@ footer{
 .contenedorForm{
     background-color: azure;
     height: 90vh;
+    width: 100%;
+    display: flex;
+    padding: 75px;
 }
- 
-.contenedorForm form{
-    text-align: center;
-    margin-top: 0px;
-    justify-content: center;
+
+.form1{
+    display: flex;
+}
+
+.form2{
+    display: flex;
+}
+
+.form3{
+    display: flex;
 }
 
 .maps{
-    position: absolute;
-    left: 40px;
-    height: 60vh;
-    width: 30vw;
-    top: 14vh;
+    height: 590px;
+    width: 550px;
     animation-duration: 1.8s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
@@ -445,7 +450,7 @@ footer{
 
 @keyframes maps{
     0%{
-        transform:translateX(-500px);
+        transform:translateX(500px);
     }
 
     100%{
@@ -468,6 +473,8 @@ input{
     width: 350px;
     box-sizing: border-box;
     border-radius: 10px;
+    margin-bottom: 30px;
+
 }
 
 ::placeholder{
@@ -476,57 +483,31 @@ input{
     align-items: center;
 }
 
-.form1{
-    display: flex;
-}
-
-.form2{
-    display: flex;
-}
-
 #nombre{
-    margin-top: 60px;
-    margin-left: 827px;
-    margin-right: 30px;
-}
-
-#apellido{
-    margin-top: 60px;
+    margin-right: 50px;
 }
 
 #teléfono{
-    margin-top: 30px;
-    margin-left: 827px;
-    margin-right: 30px;
-}
-
-#correo{
-    margin-top: 30px;
+    margin-right: 50px;
 }
 
 #localidad{
-    margin-top: 30px;
-    margin-left: 480px;
-}
-
-input#localidad{
-    width: 730px;
+    width: 750px;
 }
 
 #comentarios{
     height: 310px;
-    width: 730px;
-    margin-left: 480px;
+    width: 750px;
+    margin-bottom: 30px;
 }
 
 #submit{
-    margin-left: 480px;
-    font-size: 20px;
+    font-size: 18px;
+    margin-right: 50px;
 }
 
 #reset{
-    margin-left: 30px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #submit:hover{
@@ -600,6 +581,31 @@ input#localidad{
         justify-content: space-between;
     }
 
+    .maps{
+        height: 450px;
+        width: 450px;
+        margin-top: 50px;
+    }
+
+    .contenedorForm{
+        display: block;
+        height: 140vh;
+        width: 100%;
+    }
+
+    input{
+        height: 30px;
+        width: 200px;
+    }
+
+    #localidad{
+        width: 450px;
+    }
+
+    #comentarios{
+        width: 450px;
+        height: 250px;
+    }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -659,6 +665,11 @@ input#localidad{
 
     .redes a:not(:last-child){
         margin-right: 10px;
+    }
+
+    .copyright h2{
+        font-size: smaller;
+        margin-top: 3vh;
     }
 
     .what{
@@ -725,46 +736,29 @@ input#localidad{
     // CONTACTO (TABLETS)
 
     .maps{
-        left:70px;
-        height: 35vh;    
-        width: 65vw;
+        height: 300px;
+        width: 250px;
+        margin-top: 50px;
     }
 
-    #nombre{
-        margin-top: 350px;
-        margin-left: 220px;
-    }
-
-    #apellido{
-        margin-top: 350px;
+    .contenedorForm{
+        display: block;
+        height: 140vh;
+        width: 100%;
     }
 
     input{
         height: 30px;
-        width: 170px;
-    }
-
-    #teléfono{
-        margin-left: 220px;
+        width: 100px;
     }
 
     #localidad{
-        margin-left: 43px;
-    }
-
-    input#localidad{
-        width: 370px;
+        width: 250px;
     }
 
     #comentarios{
-        height: 130px;
-        width: 370px;
-        margin-left: 43px;
-        margin-top: -30px;
-    }
-
-    #submit{
-        margin-left: 43px;
+        width: 250px;
+        height: 250px;
     }
 
     // MOBILE DEVICES
@@ -855,46 +849,29 @@ input#localidad{
         /* CONTACTO (MOBILE) */
     
         .maps{
-            left:40px;
-            height: 35vh;    
-            width: 65vw;
-            top: 100PX;
+            height: 300px;
+            width: 250px;
+            margin-top: 50px;
         }
     
-        #nombre{
-            margin-top: 300px;
-            margin-left: 80px;
-        }
-    
-        #apellido{
-            margin-top: 300px;
+        .contenedorForm{
+            display: block;
+            height: 140vh;
+            width: 100%;
         }
     
         input{
             height: 30px;
-            width: 135px;
-        }
-    
-        #teléfono{
-            margin-left: 80px;
+            width: 100px;
         }
     
         #localidad{
-            margin-left: -26px;
-        }
-    
-        input#localidad{
-            width: 300px;
+            width: 250px;
         }
     
         #comentarios{
-            height: 100px;
-            width: 300px;
-            margin-left: -26px;
-        }
-    
-        #submit{
-            margin-left: -26px;
+            width: 250px;
+            height: 250px;
         }
     }
 }
